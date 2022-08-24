@@ -1,0 +1,13 @@
+  apiVersion: apps/v1 #Eto tipa kakay api version kubera  
+  kind: Deployment
+  metadata: 
+    name: web-mindbox-application 
+    labels: 
+      app : my-web-mindbox-application
+  spec: 
+   replicas: 4    #Uslovie po NT nado 4 Poda  
+     matchLables: 
+       project: mindbox 
+       
+
+
