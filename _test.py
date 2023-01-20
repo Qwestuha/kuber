@@ -1,3 +1,4 @@
+from hero import Hero
 import unittest
 
 class TestHero(unittest.TestCase):
