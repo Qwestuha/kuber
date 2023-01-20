@@ -1,4 +1,4 @@
-from hero import hero.py
+import hero
 import unittest
 
 class TestHero(unittest.TestCase):
